@@ -5,7 +5,6 @@
 #include "UObject/ObjectMacros.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "YvrXRInput.h"
 
 #include "YvrXRInputFunctionLibrary.generated.h"
 
@@ -129,8 +128,4 @@ public:
 
 	UFUNCTION(BlueprintPure, Category = "YvrXRLibrary|HandTracking")
 	static FString GetBoneName(EYvrXRHandJoint BoneId);
-
-protected:
-	static FYvrXRInputPlugin::FYvrXRInput* GetYvrXRInput();
 };
-

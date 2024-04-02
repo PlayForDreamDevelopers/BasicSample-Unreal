@@ -2,6 +2,7 @@
 
 #include "YvrXRInputFunctionLibrary.h"
 #include "Logging/MessageLog.h"
+#include "YvrXRInput.h"
 
 //-------------------------------------------------------------------------------------------------
 // UYvrXRHandTrackingFunctionLibrary
@@ -12,7 +13,7 @@ UYvrXRInputFunctionLibrary::UYvrXRInputFunctionLibrary(const FObjectInitializer&
 }
 
 
-FYvrXRInputPlugin::FYvrXRInput* UYvrXRInputFunctionLibrary::GetYvrXRInput()
+FYvrXRInputPlugin::FYvrXRInput* GetYvrXRInput()
 {
 	TArray<IMotionController*> MotionControllers = IModularFeatures::Get().GetModularFeatureImplementations<IMotionController>(IMotionController::GetModularFeatureName());
 	for (auto MotionController : MotionControllers)
