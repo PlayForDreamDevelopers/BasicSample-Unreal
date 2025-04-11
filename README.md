@@ -1,8 +1,19 @@
 # BasicSample - Unreal
-The **Basic Sample** sample is a simple Unreal project that adapt to VRTemplate. You can use this project as a starting point for your own VR applications.
+The **Basic Sample** sample is a simple Unreal project, How to use YVR Unreal SDK to implement gamepad input interaction. You can use this project as a starting point for your own VR applications.
 
 ## Getting Started
-open the `VRTemplate.uproject`. Connect to your Yvr device and click `Launch`(choose device to yvr).
+
+Connect the YVR device and install the packaged apk, and click to run.
+
+## Mode of operation
+
+Left handle rocker X axis control Angle rotation
+
+The Y axis of the right handle rocker controls the position to be transferred and can be transferred by releasing the hand
+
+The handle is close to the small cube of the desktop, holding down the side key can grab, and letting go can release
+
+You can also grab the gun and press the trigger button to fire the bullet
 
 ## Development Environment
 | **Name** | **Version** |
