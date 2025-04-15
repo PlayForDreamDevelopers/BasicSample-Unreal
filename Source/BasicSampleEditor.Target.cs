@@ -8,7 +8,8 @@ public class BasicSampleEditorTarget : TargetRules
 	public BasicSampleEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "BasicSample" } );
+		DefaultBuildSettings = BuildSettingsVersion.V5;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+        ExtraModuleNames.AddRange( new string[] { "BasicSample" } );
 	}
 }
