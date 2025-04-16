@@ -18,8 +18,8 @@ For guns, the **Yvr Button (L/R) Index Trigger** -> fires the bullet
 ## Development Environment
 | **Name** | **Version** |
 | ----  |  ----      |
-| Unreal Editor | 4.27 |
-| YVR Unreal SDK | 2.3.0 |
+| Unreal Editor | 5.4.4 |
+| YVR Unreal SDK | 3.0.0 |
 
 ## Licenses
 This project is released under the [MIT License](https://github.com/YVRDeveloper/BasicSample-Unreal/blob/main/LICENSE)
